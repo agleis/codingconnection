@@ -23,4 +23,20 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+	
+	/**
+     * The host ID of this user.
+     */
+    public function host()
+    {
+        return $this->belongsTo('App\Host');
+    }
+	
+	/**
+     * The posts of this user.
+     */
+    public function posts()
+    {
+        return $this->hasMany('App\Post');
+    }
 }
