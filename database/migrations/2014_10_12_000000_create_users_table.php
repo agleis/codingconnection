@@ -20,7 +20,6 @@ class CreateUsersTable extends Migration
 			$table->boolean('emailVerified')->default('false');
 			$table->integer('age');
             $table->string('password');
-			$table->integer('host_id');
             $table->rememberToken();
             $table->timestamps();
         });

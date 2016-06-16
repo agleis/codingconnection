@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateEventUsersTable extends Migration
+class CreateGroupAdminsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,12 +12,11 @@ class CreateEventUsersTable extends Migration
      */
     public function up()
     {
-        Schema::create('event_users', function (Blueprint $table) {
-            $table->integer('event_id');
-			$table->foreign('event_id')->references('id')->on('events');
-			$table->integer('user_id');
+        Schema::create('group_admins', function (Blueprint $table) {
+            $table->integer('user_id');
 			$table->foreign('user_id')->references('id')->on('users');
-			$table->integer('status');
+			$table->integer('group_id');
+			$table->foreign('group_id')->references('id')->on('groups');
 			$table->timestamps();
         });
     }
@@ -29,6 +28,6 @@ class CreateEventUsersTable extends Migration
      */
     public function down()
     {
-        Schema::drop('event_users');
-    }
+        Schema::drop('group_admins');
+	}
 }

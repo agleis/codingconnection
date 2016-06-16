@@ -17,8 +17,10 @@ class CreatePostsTable extends Migration
 			$table->text('content');
 			$table->string('title');
 			$table->string('file')->nullable();
-			$table->integer('user_id');
-			$table->foreign('user_id')->references('id')->on('users')
+			$table->integer('actor_id');
+			$table->string('actor_type');
+			$table->integer('location_id');
+			$table->string('location_type');
             $table->timestamps();
         });
     }
