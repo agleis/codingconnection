@@ -100,6 +100,7 @@ class User extends Authenticatable
 	/**
 	 * A list of this person's friends.
 	 */
+	
 	public function friends() {
 		return $this->belongsToMany('App\User', 'friends', 'user_id_1', 'user_id_2')->withTimestamps();
 	}

@@ -4,67 +4,66 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
-use App\Http\Request;
+use App\Http\Requests;
+use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-	public function __construct() {
-		
-	}
-	
-	/**
-	 * Shows the default home page
-	 *
-	 */
-	public function index() {
-		return view('home');
-	}
-	
-	/**
-	 * Shows the default home page
-	 *
-	 */
-	public function about() {
-		return view('about');
-	}
-	
-	/**
-	 * Shows the default home page
-	 *
-	 */
-	public function forgotPassword() {
-		return view('forgot_password');
-	}
-	
-	/**
-	 * Shows the default home page
-	 *
-	 */
-	public function login() {
-		return view('login');
-	}
-	
-	/**
-	 * Shows the default home page
-	 *
-	 */
-	public function media() {
-		return view('media');
-	}
-	
-	/**
-	 * Shows the default home page
-	 *
-	 */
-	public function signup() {
-		return view('sign_up');
-	}
-	
-	/**
-	 * Shows the default home page
-	 *
-	 */
-	public function why() {
-		return view('why');
-	}
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct() {
+
+    }
+
+    /**
+     * Show the application dashboard.
+     */
+    public function index() {
+        return view('home');
+    }
+
+    /**
+     * Show the login page.
+     */
+    public function login() {
+        return view('login');
+    }
+
+    /**
+     * Show the about page
+     */
+    public function about() {
+        return view('about');
+    }
+
+    /**
+     * Show the why CS page
+     */
+    public function why() {
+        return view('why');
+    }
+
+    /**
+     * Show the Buzz section.
+     */
+    public function media() {
+        return view('media');
+    }
+
+    /**
+     * Show the forgot password page.
+     */
+    public function forgotPassword() {
+        return view('forgot_password');
+    }
+
+    /**
+     * Show the sign up page.
+     */
+    public function signup() {
+        return view('sign_up');
+    }
 }
