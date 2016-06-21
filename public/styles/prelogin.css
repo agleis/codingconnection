@@ -17,6 +17,10 @@ a:hover {
   width: 100%;
 }
 
+#heading {
+  height: 100px;
+}
+
 .logo {
   color: #39a39e;
   display: inline-flex;

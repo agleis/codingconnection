@@ -1,10 +1,19 @@
 @extends('layouts/prelogin')
 
 @section('content')
+	<div class="row" id="heading">
+		<div class="col-md-6">
+			<h2>Learn Programming the Fun Way!</h2>
+		</div>
+		<div class="col-md-6">
+			<p>Coding Connection is a wonderful and magical place
+			where all of your wildest dreams come true. It is truly
+			the perfect website.</p>
+		</div>
+	</div>
 	<div class="row">
 		<div class="col-md-8">
 			<div id="carousel-container">
-				<h2>Why do YOU Code?</h2>
 				<div id="frontCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
 					<!-- Indicators -->
 					<ol class="carousel-indicators">
