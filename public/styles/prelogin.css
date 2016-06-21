@@ -1,0 +1,101 @@
+h1 {
+  color: #39a39e;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #39a39e;
+}
+
+.container {
+  margin: 0;
+  width: 100%;
+}
+
+.logo {
+  color: #39a39e;
+  display: inline-flex;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: #39a39e;
+}
+
+#codingconnection {
+  color: #39a39e;
+}
+
+#navbar {
+  background-color: ;#010101;
+  position: relative;
+}
+
+.nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#frontCarousel {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#carousel-container {
+  text-align: center;
+}
+
+/* The left sidebar */
+#left-sidebar {
+  text-align: center;
+}
+
+/* The footer*/
+footer {
+	display:block;
+  clear:both;
+  bottom: 0;
+  text-align: center;
+  background-color: #39a39e;
+  width: 100%;
+  color: white;
+  height:100px;
+  padding-top:15px;
+  margin-top: 20px;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -50px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 50px;
+}
+.site-footer {
+  background-color: #39a39e;
+}
+
+.item > img {
+  height: 400px;
+}

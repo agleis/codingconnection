@@ -103,24 +103,24 @@ ul {
 	position: relative;
 }
 
-#slideshow { 
+#slideshow {
 	display: block;
     margin: 0 auto;
 	margin-left: 40%;
     position: absolute;
 	top: 140px;
-    width: 600px; 
-    height: 500px; 
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-#slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
 }
 
 #title a img {
@@ -154,17 +154,17 @@ ul {
 }
 
 #video-header {
-	margin-left: 25%;	
+	margin-left: 25%;
     position: absolute;
 	top: 20px;
-    width: 600px; 
+    width: 600px;
 }
 
 #videos {
-	margin-left: 25%;	
+	margin-left: 25%;
     position: absolute;
 	top: 120px;
-    width: 600px; 
+    width: 600px;
 }
 
 #news-header {
@@ -188,21 +188,18 @@ ul {
 	width: 60%;
 }
 
-h1 {
-	color: #39a39e;
-}
-
-h2 {
+#codingconnection {
 	font-size: 40px;
-	position: absolute;
-	left: 115px;
-	top: 0;
 	color: white;
 	margin-top: 0px;
 }
 
 #logo {
 	width: 20vw;
+}
+
+.logo {
+	display: inline;
 }
 
 p{
@@ -230,15 +227,19 @@ html, body {
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -50px; 
+  margin-bottom: -50px;
 }
 .page-wrap:after {
   content: "";
   display: block;
 }
 .site-footer, .page-wrap:after {
-  height: 50px; 
+  height: 50px;
 }
 .site-footer {
   background-color: #39a39e;
+}
+
+#navbar, .navbar {
+	background-color: #39a39e;
 }

@@ -7,9 +7,6 @@
 			<a href="http://www.code.org"><img src="https://code.org/images/logo.png"></a>
 		</li>
 		<li>
-			<a href="http://www.codeacademy.com"><img src="https://cdn-production.codecademy.com/assets/logo/logo--dark-blue-ac069c03cf75e3cb300995028104f92e.svg" width="200px"></a>
-		</li>
-		<li>
 			<a href="http://scratch.mit.edu"><img src="https://scratch.mit.edu/images/logo_sm.png" width="150px"></a>
 		</li>
 		<li>
