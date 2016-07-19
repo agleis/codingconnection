@@ -1,0 +1,8 @@
+.hexagon {
+  height: 100vh;
+  margin: 0 auto;
+}
+
+#hex-col {
+  text-align: center;
+}
